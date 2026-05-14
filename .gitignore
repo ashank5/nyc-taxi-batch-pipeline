@@ -1,0 +1,17 @@
+# Data files — never push raw data
+*.parquet
+*.csv
+*.json
+
+# Databricks
+.databricks/
+*.dbc
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Secrets
+*.key
+connection_strings.txt
